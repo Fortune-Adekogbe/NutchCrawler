@@ -16,7 +16,7 @@ Thumbs.db
 *.tgz
 
 # Apache Solr specific ignores
-/solr-*/                  # If Solr was downloaded and extracted in your project directory
+solr-*/                  # If Solr was downloaded and extracted in your project directory
 /solr/server/logs/*       # Solr logs
 /solr/server/solr/webapp/ # Compiled web application files
 /solr/server/solr/data/   # Index data
