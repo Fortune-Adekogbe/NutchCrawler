@@ -1,7 +1,7 @@
 # Nutch generated and runtime files
-/crawl/
-/runtime/
-/logs/
+apache-nutch-*/crawl/
+apache-nutch-*/runtime/
+apache-nutch-*/logs/
 
 # Backup files often created by editors
 *~
@@ -16,11 +16,12 @@ Thumbs.db
 *.tgz
 
 # Apache Solr specific ignores
-solr-*/*                  # If Solr was downloaded and extracted in your project directory
-/solr/server/logs/*       # Solr logs
-/solr/server/solr/webapp/ # Compiled web application files
-/solr/server/solr/data/   # Index data
-/solr/server/solr/*/data/ # Index data for specific cores or collections
+solr-*/
+# If Solr was downloaded and extracted in your project directory
+# /solr/server/*       
+# /solr/server/solr/webapp/ 
+# /solr/server/solr/data/  
+# /solr/server/solr/*/data/
 
 # Configurations that might contain sensitive information
 # Uncomment these if you're keeping local copies of them in the repo
